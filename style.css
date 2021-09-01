@@ -1,0 +1,40 @@
+body {
+    background-color: wheat;
+    margin: 0;
+}
+
+.h2 {
+    color: green;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.h5 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+    grid-gap: 7px;
+    margin: 0 auto;
+}
+
+.area {
+    width: 70%;
+    height: 70vh;
+    background-color: #fff;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.area div {
+    border: 1px solid rgb(233, 127, 6);
+}
